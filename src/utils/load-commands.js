@@ -68,7 +68,6 @@ function requireCommands () {
   cmds.util = (send, config) => {
     return {
       getEndpointConfig: require('../util/get-endpoint-config')(config),
-      // crypto: require('libp2p-crypto'),
       isIPFS: require('is-ipfs')
     }
   }
