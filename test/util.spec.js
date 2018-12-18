@@ -43,14 +43,6 @@ describe('.util', () => {
     })
   })
 
-  describe('.crypto', () => {
-    it('should contain the crypto primitives object', function () {
-      const cripto = ipfs.util.crypto
-
-      expect(cripto).to.exist()
-    })
-  })
-
   describe('.isIPFS', () => {
     it('should contain the isIPFS utilities object', function () {
       const isIPFS = ipfs.util.isIPFS

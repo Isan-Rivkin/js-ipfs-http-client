@@ -69,7 +69,7 @@
     "stream-http": "hugomrdias/stream-http#develop",
     "stream-to-pull-stream": "^1.7.2",
     "streamifier": "~0.1.1",
-    "tar-stream": "^1.6.2",
+    "tar-stream": "hugomrdias/tar-stream#chore/update-bl",
     "through2": "^3.0.0"
   },
   "engines": {
@@ -90,7 +90,7 @@
     "eslint-plugin-react": "^7.11.1",
     "go-ipfs-dep": "~0.4.18",
     "gulp": "^3.9.1",
-    "interface-ipfs-core": "~0.94.0",
+    "interface-ipfs-core": "ipfs/interface-ipfs-core#fix/bundle-size",
     "ipfsd-ctl": "~0.40.0",
     "nock": "^10.0.2",
     "pull-stream": "^3.6.9",
